@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: v1.0.0
+dependencies:
+- alias: app
+  name: busybox-1
+  repository: file://../chart
+  version: 1.0.1
+description: A Helm chart for Busybox Application
+name: busybox
+type: application
+version: 1.0.0

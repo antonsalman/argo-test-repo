@@ -1,0 +1,15 @@
+apiVersion: v2
+description: A utility chart to verify clusters and processes
+name: busybox-1
+version: 1.0.1
+maintainers:
+  - name: Tony Salman
+    email: anton.salman@gmail.com
+icon: https://www.busybox.net/images/busybox1.png
+keywords: 
+  - busybox 
+  - testing 
+  - sanity check
+  - network
+  - connectivity
+home: https://www.busybox.net/
