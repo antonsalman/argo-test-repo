@@ -1,7 +1,7 @@
 apiVersion: v2
 description: A utility chart to verify clusters and processes
 name: busybox
-version: 0.1.0
+version: 1.0.0
 maintainers:
   - name: Tony Salman
     email: anton.salman@gmail.com
