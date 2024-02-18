@@ -7,6 +7,10 @@ metadata:
     environment: {{ .Values.environment }}
 spec:
   replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ template "fullname" . }}
+      environment: {{ .Values.environment }}
   template:
     metadata:
       labels:
