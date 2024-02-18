@@ -23,7 +23,6 @@ spec:
           releaseName: '{{path[1]}}'
       destination:
         server: https://kubernetes.default.svc
-        name: in-cluster
         namespace: production
       syncPolicy:
         automated:
