@@ -1,0 +1,4 @@
+app:
+  replicaCount: 3
+  environment: production
+  namespace: production

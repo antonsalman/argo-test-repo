@@ -1,0 +1,4 @@
+app:
+  replicaCount: 1
+  environment: experimental
+  namespace: experimental
